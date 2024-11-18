@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+	font-family: Inter;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-items: center;
+	background: #ebebeb;
+}
+
+.page {
+	margin-top: 10vh;
+	border-radius: 12px;
+	background: white;
+	width: 678px;
+	position: relative;
+}
+
+.progress_bar {
+	position: relative;
+	background: #e0a863;
+	height: 15px;
+	border-radius: 20px;
+}
+
+.progress_bar_border > p {
+	position: absolute;
+	z-index: 5;
+	left: 45%;
+	top: 485px;
+	color: white;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.progress_bar_border {
+	border: 2px solid #939393;
+	background: #939393;
+	border-radius: 20px;
+}
+
+.part1 {
+	position: relative;
+}
+
+.circel {
+	position: absolute;
+	top: 260px;
+	right: 280px;
+	height: 30px;
+	width: 30px;
+	background: #50f27b;
+	border: #e3e3e3 solid 5px;
+	border-radius: 10000000000000000px;
+	z-index: 2;
+}
+
+.pp {
+	z-index: 1;
+	position: absolute;
+	top: 150px;
+	right: 40%;
+}
+
+.part1 > h1 {
+	position: absolute;
+	background: #3a3a3ab2;
+	top: 130px;
+	left: 3%;
+	border-radius: 8px;
+	color: white;
+	padding: 15px;
+}
+
+.part2 {
+	margin: 100px 50px 50px 50px;
+}
+
+.part2 > p {
+	color: #939393;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex > .Travel {
+	color: #939393;
+}
+
+.Number {
+	color: black;
+	font-weight: bolder;
+}
+
+.left {
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 50px;
+}
